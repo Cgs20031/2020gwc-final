@@ -11,14 +11,26 @@ h1 {
 }
 
 .nav-bar{
-  color: white;
-  font-family: "Courier";
+  font-size: 2em;
   margin:.5em;
-  padding:0px;
-  border: 15px solid #d7c1d7;
-  background-color: #d7c1d7;
+  padding:10px;
+  border: 10px solid black;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+}
+
+#home{
+  color: black;
+  font-family: "times";
+  text-decoration: none;
+  margin: 70px;
+}
+
+#takeaction{
+  color: black;
+  font-family: "times";
+  text-decoration: none;
+  margin: 70px;
 }
