@@ -9,3 +9,16 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+.nav-bar{
+  color: white;
+  font-family: "Courier";
+  margin:.5em;
+  padding:0px;
+  border: 15px solid #d7c1d7;
+  background-color: #d7c1d7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
