@@ -91,6 +91,7 @@ h1 {
   align-items: center; /* Align the flex items to the center */
   /* Design properties */
   padding: 5px;
+  border-color: black;
 
 
   /* Positioning properties */
