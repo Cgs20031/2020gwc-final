@@ -19,6 +19,11 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-family: "Didot";
+  font-weight: normal;
+  position: fixed;
+  top: 0;
+  width
 }
 
 #home {
@@ -90,6 +95,12 @@ h1 {
   margin: 2em;
   padding: 1.5em;
   font-size: 3em;
-  font-family: 
+  font-family: "Didot";
+  font-weight: bold;
 }
 
+.titles {
+  font-size: 3em;
+  font-family: "Didot";
+  color: black;
+}
