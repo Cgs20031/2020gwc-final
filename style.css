@@ -117,7 +117,7 @@ h1 {
   font-size: 3em;
   font-family: "Didot";
   color: black;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
