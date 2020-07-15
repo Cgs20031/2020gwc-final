@@ -183,12 +183,14 @@ h1 {
   margin-right: auto;
 }
 
-#marieePhoto {
+
+
+.scrolling-box {
   background-color: #eaeaea;
   display: block;
-  width: 200px;
   height: 200px;
-  padding: 1em;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   text-align: center;
+  width: 200px;
 }
