@@ -42,13 +42,14 @@ h1 {
   width: 100em;
 }
 
-#inform {
+.inform {
   display: inline-block;
-  float: left;
-  float: right;
-  width: 100%;
-  background-color: yellow;
-  margin: 0em;
+  float-left: 0em;
+  margin-right: 0em;
+  width:100%;
+  background-color: #FFFF00;
+  font-family: "times";
+  font-weight: bold;
 }
 
 .firstPhoto{
