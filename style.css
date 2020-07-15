@@ -50,9 +50,21 @@ h1 {
 }
 
 #firstPhoto{
-  margin-top: .5em;
+/*   margin-top: .5em;
   margin-side:0em;
-  width: 100%;
+  width: 100%;*/
+  position: relative; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43d6b9ff;
+  background-size: cover;
+  min-height: 100%;
 }
 
+.Donate{
+  background-color: #0D38D3;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
 
