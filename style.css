@@ -48,3 +48,10 @@ h1 {
   background-color: yellow;
   margin: 0em;
 }
+
+#firstPhoto{
+  margin-top: .5em;
+  margin-side:0em;
+  width: 100%;
+}
+
