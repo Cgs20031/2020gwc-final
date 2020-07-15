@@ -50,15 +50,12 @@ h1 {
 }
 
 #firstPhoto{
-/*   margin-top: .5em;
+  margin-top: .5em;
   margin-side:0em;
-  width: 100%;*/
-  position: relative; 
+  width: 100%;
   background-position: center;
-  background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
-  min-height: 100%;
 }
 
 .Donate{
@@ -66,5 +63,35 @@ h1 {
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
+  
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+
+  /* Design properties */
+  background-color: #0D38D3;
+  padding: 5px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%;
+  
+  padding: 2%;
+  color: #43d6b9ff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+  
+}
+
+#donateSquare{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
 }
 
