@@ -135,7 +135,7 @@ h1 {
   background-color: #FFFF00;
   border: 5px solid #FFFF00;
   padding: .2em;
-  
+  text-decoration: underline;
 }
 
 #petitionSquare:hover, #donateSquare:hover {
