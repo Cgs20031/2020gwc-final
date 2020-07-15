@@ -153,6 +153,7 @@ h1 {
   border: 5px solid #FFFF00;
   padding: .2em;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 #petitionSquare:hover, #donateSquare:hover {
@@ -171,6 +172,12 @@ h1 {
 
 #marieePhoto {
   border: .75em solid #FFFF00;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fourthImage{
   display: block;
   margin-left: auto;
   margin-right: auto;
