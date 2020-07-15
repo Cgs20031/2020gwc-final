@@ -36,11 +36,12 @@ h1 {
 }
 
 #titlePhoto {
-  margin: 0;
+  margin: 2em;
   width: 100em;
   
 }
 
-* {
-  margin: 0;
+#inform{
+  
+  background-color: yellow;
 }
