@@ -10,10 +10,10 @@ h1 {
   color: #373fff;
 }
 
-.nav-bar{
+.nav-bar {
   font-size: 2em;
-  margin:.0em;
-  padding:10px;
+  margin: 0em;
+  padding: 10px;
   border: 10px solid black;
   background-color: white;
   display: flex;
@@ -21,26 +21,26 @@ h1 {
   justify-content: space-around;
 }
 
-#home{
+#home {
   color: black;
   font-family: "times";
   text-decoration: none;
   margin: 70px;
 }
 
-#takeaction{
+#takeaction {
   color: black;
   font-family: "times";
   text-decoration: none;
   margin: 70px;
 }
 
-#titlePhoto{
- margin: 0; 
- width: 100em;
+#titlePhoto {
+  margin: 0;
+  width: 100em;
   
 }
 
-*{
+* {
   margin: 0;
 }
