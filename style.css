@@ -187,4 +187,5 @@ h1 {
   overflow-y: scroll;
   scroll-behavior: auto;
   text-align: center;
+  margin: 3em;
 }
