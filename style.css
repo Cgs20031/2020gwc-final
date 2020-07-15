@@ -112,10 +112,20 @@ h1 {
 .sticky {
   position: fixed;
   top: 0em;
-  
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.imageTester{
+  background-image: url("https://d3i6fh83elv35t.cloudfront.net/static/2019/03/OnBorder2-1024x654.jpg");
+  background-image: url("https://cdn.glitch.com/8452f148-0e75-4ee5-83a2-3209cfba55ef%2FBackground.png?v=1594777014749");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43d6b9ff;
+  background-size: cover;
+  min-height: 100%; 
 }
