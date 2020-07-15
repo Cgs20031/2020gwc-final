@@ -10,18 +10,15 @@ h1 {
   color: #373fff;
 }
 
-.nav-bar{
+.nav-bar {
   left: 0%;
   right: 0%;
 }
 
-
-
 #nav-bar1 {
-  
   left: 0%;
   right: 0%;
-  
+
   font-size: 2em;
   margin: 0em;
   padding: 10px;
@@ -53,12 +50,12 @@ h1 {
   display: inline-block;
   float-left: 0em;
   padding: 1.5em;
-  width:100%;
+  width: 100%;
   background-color: #FFFF00;
   font-family: "times";
   font-weight: bold;
   font-size: 1.5em;
-  right: 1em;;
+  right: 1em;
   left: 10%;
 }
 
@@ -66,7 +63,7 @@ h1 {
   display: inline-block;
   float-left: 0em;
   padding: 1.5em;
-  width:100%;
+  width: 100%;
   background-color: #FFFF00;
   font-family: "times";
   font-weight: normal;
@@ -76,19 +73,19 @@ h1 {
   margin-right: 0px;
 }
 
-.firstPhoto{
+.firstPhoto {
   width: 100%;
   left: 0%;
-  right:0%;
+  right: 0%;
   background-size: cover;
 }
 
-.Squares{
+.Squares {
   background-color: white;
   padding: 3em;
   margin: 35px;
   text-align: center;
-  
+
   display: flex; /* Set the flexbox display */
   flex-direction: row; /* Configure the flex items to row */
   flex-wrap: nowrap; /* Don’t wrap the flex items */
@@ -97,23 +94,22 @@ h1 {
   /* Design properties */
   padding: 5px;
 
-
   /* Positioning properties */
   position: absolute;
   left: 15%;
   right: 15%;
   top: 50%;
-  
+
   line-height: 60px;
   text-align: center;
-  
+
   padding: 35px;
   border: 5px solid black;
   text-decoration: none;
-  
 }
 
-#petitionSquare, #donateSquare{
+#petitionSquare,
+#donateSquare {
   background-color: #FFFF00;
   margin: 2em;
   padding: 1em;
@@ -122,6 +118,7 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   color: black;
+  border: 5px solid black;
 }
 
 .titles {
@@ -129,14 +126,14 @@ h1 {
   font-family: "Didot";
   color: black;
   font-weight: bold;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0em;
+  bottom: 0em;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -147,19 +144,20 @@ h1 {
 .navText:hover {
   background-color: #FFFF00;
   border: 5px solid #FFFF00;
-  padding: .2em;
+  padding: 0.2em;
   text-decoration: underline;
   font-weight: bold;
 }
 
-#petitionSquare:hover, #donateSquare:hover {
+#petitionSquare:hover,
+#donateSquare:hover {
   background-color: black;
   color: white;
   padding: 35px;
   border: 5px solid #FFFF00;
 }
 
-#secondPhoto{
+#secondPhoto {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -167,13 +165,13 @@ h1 {
 }
 
 #marieePhoto {
-  border: .75em solid #FFFF00;
+  border: 0.75em solid #FFFF00;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#fourthImage{
+#fourthImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
