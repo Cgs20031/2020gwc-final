@@ -60,7 +60,7 @@ h1 {
 
 .Squares{
   background-color: white;
-  padding: 20px 45px;
+  padding: 3em;
   margin: 35px;
   text-align: center;
   
@@ -98,4 +98,9 @@ h1 {
   font-family: "Didot";
   color: black;
   font-weight: 900;
+}
+
+*{
+  padding: 0em;
+  margin: 0em;
 }
