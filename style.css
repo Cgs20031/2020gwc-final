@@ -69,16 +69,16 @@ h1 {
   flex-wrap: nowrap; /* Don’t wrap the flex items */
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
-
   /* Design properties */
   background-color: white;
   padding: 5px;
 
+
   /* Positioning properties */
   position: absolute;
-  left: 20%;
-  right: 20%;
-  top: 40%;
+  left: 15%;
+  right: 15%;
+  top: 50%;
   
   line-height: 60px;
   text-align: center;
@@ -86,9 +86,10 @@ h1 {
 }
 
 #petitionSquare, #donateSquare{
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  margin: 100em;
+  background-color: yellow;
+  margin: 2em;
+  padding: 1.5em;
+  font-size: 3em;
+  font-family: 
 }
 
