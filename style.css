@@ -37,14 +37,7 @@ h1 {
   text-decoration: none;
 }
 
-.11 {
-  color: black;
-  font-family: "times";
-  text-decoration: none;
-  margin: 70px;
-}
-
-.22 {
+.navText {
   color: black;
   font-family: "times";
   text-decoration: none;
@@ -150,7 +143,7 @@ h1 {
   padding-top: 60px;
 }
 
-#11:hover, #22:hover {
+.navText:hover {
   background-color: #FFFF00;
   border: 5px solid #FFFF00;
   padding: .2em;
@@ -172,7 +165,7 @@ h1 {
   width: 50%;
 }
 
-#3 {
+#marieePhoto {
   border: .75em solid #FFFF00;
   display: block;
   margin-left: auto;
