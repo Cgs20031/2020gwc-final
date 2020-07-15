@@ -69,6 +69,20 @@ h1 {
   left: 10%;
 }
 
+#mariee {
+  display: inline-block;
+  float-left: 0em;
+  padding: 1.5em;
+  width:100%;
+  background-color: #FFFF00;
+  font-family: "times";
+  font-weight: normal;
+  font-size: 1.5em;
+  pading-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .firstPhoto{
   width: 100%;
   left: 0%;
