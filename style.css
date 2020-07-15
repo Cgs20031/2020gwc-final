@@ -118,6 +118,8 @@ h1 {
   font-family: "Didot";
   color: black;
   font-weight: bold;
+  display:flex;
+  justify-content: center;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -129,4 +131,15 @@ h1 {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+#home:hover, #takeaction:hover {
+  background-color: #FFFF00;
+}
+
+#petitionSquare:hover, #donateSquare:hover {
+  background-color: black;
+  color: white;
+  padding: 35px;
+  border: 3px solid #;
 }
