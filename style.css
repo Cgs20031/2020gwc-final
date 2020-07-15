@@ -51,13 +51,10 @@ h1 {
   margin: 0em;
 }
 
-#firstPhoto{
+.firstPhoto{
   margin-top: .5em;
   margin-side:0em;
   width: 100%;
-  background-position: center;
-  background-color: #43d6b9ff;
-  background-size: cover;
 }
 
 .Squares{
