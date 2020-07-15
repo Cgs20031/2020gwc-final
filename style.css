@@ -114,6 +114,9 @@ h1 {
   line-height: 60px;
   text-align: center;
   
+  padding: 35px;
+  border: 5px solid black;
+  
 }
 
 #petitionSquare, #donateSquare{
@@ -164,4 +167,11 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#marieePhoto {
+  border: .75em solid #FFFF00;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
