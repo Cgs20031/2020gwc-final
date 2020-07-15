@@ -11,6 +11,12 @@ h1 {
 }
 
 #nav-bar1 {
+  
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 50%;
+  
   font-size: 2em;
   margin: 0em;
   padding: 10px;
@@ -19,6 +25,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  justify-content: center;
   font-family: "Didot";
   font-weight: normal;
   padding: 14px;
@@ -102,12 +109,6 @@ h1 {
   font-weight: 900;
 }
 
-*{
-  padding: 0em;
-  margin: 0em;
-}
-
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -119,13 +120,12 @@ h1 {
   padding-top: 60px;
 }
 
-.imageTester{
+/* .imageTester{
   background-image: url("https://d3i6fh83elv35t.cloudfront.net/static/2019/03/OnBorder2-1024x654.jpg");
-  background-image: url("https://cdn.glitch.com/8452f148-0e75-4ee5-83a2-3209cfba55ef%2FBackground.png?v=1594777014749");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
   min-height: 100%; 
-}
+} */
