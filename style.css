@@ -10,7 +10,7 @@ h1 {
   color: #373fff;
 }
 
-.nav-bar {
+#nav-bar1 {
   font-size: 2em;
   margin: 0em;
   padding: 10px;
@@ -21,6 +21,8 @@ h1 {
   justify-content: space-around;
   font-family: "Didot";
   font-weight: normal;
+  padding: 14px;
+  text-decoration: none;
 }
 
 #home {
@@ -87,7 +89,7 @@ h1 {
 #petitionSquare, #donateSquare{
   background-color: #FFFF00;
   margin: 2em;
-  padding: 1.5em;
+  padding: 1em;
   font-size: 3em;
   font-family: "Didot";
   font-weight: bold;
@@ -106,24 +108,11 @@ h1 {
 }
 
 
-
-
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 0em;
+  
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
