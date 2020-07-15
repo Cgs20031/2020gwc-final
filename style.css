@@ -61,11 +61,14 @@ h1 {
 .inform {
   display: inline-block;
   float-left: 0em;
-  margin-right: 0em;
+  padding: 1.5em;
   width:100%;
   background-color: #FFFF00;
   font-family: "times";
   font-weight: bold;
+  font-size: 1.5em;
+  right: 1em;;
+  left: 10%;
 }
 
 .firstPhoto{
