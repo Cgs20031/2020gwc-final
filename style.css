@@ -183,14 +183,8 @@ h1 {
   margin-right: auto;
 }
 
-
-
 .scrolling-box {
-  background-color: #eaeaea;
-  display: block;
-  height: 200px;
   overflow-y: scroll;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   text-align: center;
-  width: 200px;
 }
