@@ -10,12 +10,17 @@ h1 {
   color: #373fff;
 }
 
+.nav-bar{
+  left: 0%;
+  right: 0%;
+}
+
+
+
 #nav-bar1 {
   
-  position: absolute;
-  left: 15%;
-  right: 15%;
-  top: 50%;
+  left: 0%;
+  right: 0%;
   
   font-size: 2em;
   margin: 0em;
@@ -49,6 +54,8 @@ h1 {
 #titlePhoto {
   margin: 2em;
   width: 100em;
+  left: 0%;
+  right: 0%
 }
 
 .inform {
@@ -62,9 +69,10 @@ h1 {
 }
 
 .firstPhoto{
-  margin-top: .5em;
-  margin-side:0em;
   width: 100%;
+  left: 0%;
+  right:0%;
+  background-size: cover;
 }
 
 .Squares{
@@ -119,13 +127,3 @@ h1 {
 .sticky + .content {
   padding-top: 60px;
 }
-
-/* .imageTester{
-  background-image: url("https://d3i6fh83elv35t.cloudfront.net/static/2019/03/OnBorder2-1024x654.jpg");
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #43d6b9ff;
-  background-size: cover;
-  min-height: 100%; 
-} */
