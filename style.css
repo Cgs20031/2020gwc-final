@@ -29,8 +29,6 @@ h1 {
   justify-content: space-around;
   justify-content: center;
   font-family: "Didot";
-  font-weight: normal;
-  padding: 14px;
   text-decoration: none;
 }
 
@@ -42,8 +40,8 @@ h1 {
 }
 
 #titlePhoto {
-  margin: 3em;
-  width: 100em;
+  padding-right: 0px;
+  width: 100%;
 }
 
 .inform {
@@ -74,10 +72,9 @@ h1 {
 }
 
 .firstPhoto {
+  background-size:cover;
   width: 100%;
-  left: 0%;
-  right: 0%;
-  background-size: cover;
+  padding-right:0px;
 }
 
 .Squares {
