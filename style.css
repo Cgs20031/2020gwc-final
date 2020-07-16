@@ -1,7 +1,4 @@
 /* CSS files add styling rules to your content */
-.phototester{
-background-image: url("https://d3i6fh83elv35t.cloudfront.net/static/2019/03/OnBorder2-1024x654.jpg");
-}
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -30,7 +27,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  justify-content: center;
+  max-width: 100%;
   font-family: "Didot";
   text-decoration: none;
 }
