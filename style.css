@@ -55,6 +55,7 @@ h1 {
   font-size: 1.5em;
   right: 1em;
   left: 10%;
+  margin-right: 0em;
 }
 
 #mariee {
@@ -74,7 +75,6 @@ h1 {
 .firstPhoto {
   background-size:cover;
   width: 100%;
-  padding-right:0px;
 }
 
 .Squares {
