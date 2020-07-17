@@ -92,7 +92,7 @@ h1 {
   justify-content: center; /* Justify the flex items to the center */
   align-items: center; /* Align the flex items to the center */
   /* Design properties */
-  padding: 5px;
+  padding: 2em;
 
   /* Positioning properties */
   position: absolute;
@@ -102,8 +102,6 @@ h1 {
 
   line-height: 60px;
   text-align: center;
-
-  padding: 35px;
   border: 5px solid black;
   text-decoration: none;
 }
@@ -112,7 +110,7 @@ h1 {
 #donateSquare {
   background-color: #FFFF00;
   margin: 2em;
-  padding: 1em;
+  padding: .5em;
   font-size: 3em;
   font-family: "Didot";
   font-weight: bold;
